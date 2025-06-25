@@ -1,0 +1,50 @@
+@import '../styles/variables.css';
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+  color: white;
+  box-shadow: var(--shadow);
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: var(--font-family);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    background: var(--primary-color);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    display: none;
+  }
+
+  .navbar.open .nav-links {
+    display: flex;
+  }
+}

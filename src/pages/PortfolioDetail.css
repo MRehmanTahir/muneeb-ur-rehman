@@ -1,0 +1,45 @@
+.portfolio-detail {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.portfolio-detail h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.portfolio-detail img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.portfolio-detail p {
+  font-size: 1rem;
+  color: #444;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.portfolio-detail strong {
+  color: #222;
+}
+
+@media (max-width: 600px) {
+  .portfolio-detail {
+    padding: 15px;
+  }
+
+  .portfolio-detail h1 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,29 @@
+.service-detail {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.service-detail img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.service-detail h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.service-detail p {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.service-detail strong {
+  color: #000;
+}
